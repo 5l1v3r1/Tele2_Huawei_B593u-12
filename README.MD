@@ -58,7 +58,7 @@ Write changes made to NVRAM
 
 ### Backup 
 
-![Screenshot](pics/cbackup-script_tele2.gif)
+![Screenshot](pics/backup-script_tele2.gif)
 
 Run script in scripts/backup-script.sh for backup as above
 
