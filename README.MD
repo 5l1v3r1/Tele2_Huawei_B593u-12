@@ -7,11 +7,12 @@ http://huaweicodecalculator.com/credits - yup, it actually works fine for this r
 ### Default Shell Login For This Router:
 
     login: admin
-    pass: HW4GCPE
+     pass: HW4GCPE
 
 ### Download B593cmd.pl:
 
-    Credits goes to: Jari Turkia 
+Credits goes to: Jari Turkia 
+
     wget http://opensource.hqcodeshop.com/Huawei%20B593/exploit/B593cmd.pl
     chmod +x B593cmd.pl
 
