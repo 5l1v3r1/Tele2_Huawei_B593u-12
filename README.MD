@@ -2,27 +2,27 @@
 
 ### For sim unlock:
 
-    http://huaweicodecalculator.com/credits - yup, it actually works fine for this router :)
+http://huaweicodecalculator.com/credits - yup, it actually works fine for this router :)
 
 ### Default Shell Login For This Router:
 
-login: admin
-pass: HW4GCPE
-
+    login: admin
+     pass: HW4GCPE
 
 ### Download B593cmd.pl:
 
-   Credits goes to: Jari Turkia 
-   wget http://opensource.hqcodeshop.com/Huawei%20B593/exploit/B593cmd.pl
-   chmod +x B593cmd.pl
+Credits goes to: Jari Turkia 
+
+    wget http://opensource.hqcodeshop.com/Huawei%20B593/exploit/B593cmd.pl
+    chmod +x B593cmd.pl
 
 ### Execute commands with
 
-   ./B593cmd.pl <ip> <admin_pw> "command_to_execute"
+    ./B593cmd.pl <ip> <admin_pw> "command_to_execute"
 
 ### Allow incoming connections
 
-   ./B593cmd.pl 192.168.1.3 odemnn  "iptables -I INPUT -i br0 -j ACCEPT"
+    ./B593cmd.pl 192.168.1.3 odemnn  "iptables -I INPUT -i br0 -j ACCEPT"
 
 ### SSH:
 
@@ -37,8 +37,7 @@ pass: HW4GCPE
  
     telnet 192.168.1.3
 
-
-### ENable serial console
+### Enable serial console
 
 Enable CFE and normal boot (B593.trx) serial console
 
