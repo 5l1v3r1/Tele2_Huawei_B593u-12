@@ -1,0 +1,10 @@
+for mtd_partitions in mtd0 mtd1 mtd2 mtd3 mtd4 mtd5 mtd6; do dd if=/dev/$mtd_partitions of=/mnt/usb2_1/huawei_b593_backup/$mtd_partitions.bin; done
+
+
+
+for mtdblock_partitions in  mtdblock0 mtdblock1 mtdblock2 mtdblock3 mtdblock4 mtdblock5 mtdblock6; do 
+   dd if=/dev/$mtdblock_partitions of=/mnt/usb2_1/huawei_b593_backup/$mtdblock_partitions.bin; 
+done
+
+
+for stuff in nvram gpio nandflash misc fuse ac97; do dd=/dev/$stuff > /mnt/usb2_1/huawei_b593_backup/$stuff.bin; done
