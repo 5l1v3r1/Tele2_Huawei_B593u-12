@@ -2,7 +2,7 @@
 
 ### For sim unlock:
 
-    http://huaweicodecalculator.com/credits - yup, it actually works fine for this router :)
+http://huaweicodecalculator.com/credits - yup, it actually works fine for this router :)
 
 ### Default Shell Login For This Router:
 
